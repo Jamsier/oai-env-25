@@ -1,20 +1,20 @@
-# CRW25
+# oai-env-25
 
 1. clone the repo
   ```bash
-  git clone https://github.com/Jamsier/CRW25.git
+  git clone https://github.com/Jamsier/oai-env-25.git
   ```
 2. Pull the images
   ```bash
-  cd ~/CRW25
+  cd ~/oai-env-25
   docker compose pull
 
-  cd rfsim-cu-du-split
+  cd ~/oai-env-25/rfsim-cu-du-split
   docker compose pull
   ```
 3. Run the OAI-CN
   ```bash
-  cd ~/CRW25
+  cd ~/oai-env-25
 
   ./run-cn.sh
   # or
@@ -22,7 +22,7 @@
   ```
 4. RUN the OAI-CU, OAI-DU, OAI-nr-UE
   ```bash
-  cd rfsim-cu-du-split
+  cd ~/oai-env-25/rfsim-cu-du-split
 
   ./run-ran.sh
   # or
